@@ -7,5 +7,5 @@ app_name = 'images'
 
 urlpatterns = [
     path('', TemplateView.as_view(template_name='images/index.html')),
-    path('all/', ImageListView.as_view(), name='all-images'),
+    path('all/', ImageListView.as_view(), name='all_images'),
 ]
